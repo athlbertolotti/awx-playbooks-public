@@ -1,0 +1,6 @@
+- name: Test AWX
+  hosts: localhost
+  tasks:
+    - name: Ping message
+      debug:
+        msg: "AWX + GitHub funziona!"
